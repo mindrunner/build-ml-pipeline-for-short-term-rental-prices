@@ -6,28 +6,28 @@ entry_points:
     parameters:
 
       input_artifact:
-        description: ## ADD DESCRIPTION
+        description: The input artifact containing rental price data
         type: string
 
       output_artifact:
-        description: ## ADD DESCRIPTION
+        description: The cleaned up output artifact
         type: string
 
       output_type:
-        description: ## ADD DESCRIPTION
+        description: Output Type (e.g.: clean_sample)
         type: string
 
       output_description:
-        description: ## ADD DESCRIPTION
+        description: Description of the cleanup task
         type: string
 
       min_price:
-        description: ## ADD DESCRIPTION
-        type: string
+        description: The minimum price to consider
+        type: float
 
       max_price:
-        description: ## ADD DESCRIPTION
-        type: string
+        description: The maximum price to consider
+        type: float
 
 
     command: >-
